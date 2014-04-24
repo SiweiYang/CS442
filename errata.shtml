@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>CS 442: Errata</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Errata</h1>
+	
+      <h2>Textbook errata</h2>
+      <p>Any errata I or students might discover during the term will
+      be posted here.</p>
+
+      <h2>Slides errata</h2>
+      <p>Any errata in the handouts will be posted here. In some
+	cases, corrected copies of the handouts will also be posted on
+	the Handouts page.</p>
+      <p>
+
+      </td>
+  </tr>
+</table>
+</body>
+</html>

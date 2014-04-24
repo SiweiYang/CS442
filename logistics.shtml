@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>CS 442: Logistics</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Logistics</h1>
+      <p>The instructor in Winter 2014 is Prabhakar Ragde (UW
+      userid <tt>plragde</tt>, office DC 1314, office hours TuTh 1:15-2:15).</p>
+      <p>The required textbook for CS 442 is 
+      <a href="http://www.cis.upenn.edu/~bcpierce/tapl/">Types
+      and Programming Languages</a>,
+      by Benjamin Pierce (MIT Press, 2002), available at the UW Bookstore.
+      We will try to make more use of this book than in previous
+      offerings. There will be assigned readings.
+      The book does not define the course, but
+      provides valuable support. The course will be a synthesis
+      of various reference materials.
+
+      <p>The lectures are arranged topically into modules of various
+      lengths. Presentation slides for the modules will be available on
+      the Handouts page. </p>
+
+      <p>There will be a number of programming questions assigned (perhaps
+      with some written, or more accurately, "typed" questions). 
+      They will be posted on the Assignments page. We will use the
+      Marmoset submission system which allows for automated testing
+      and rapid feedback. Details are on the Marmoset page.
+      </p>
+
+      <p>There will be one midterm exam, on Thursday, February 27,
+      2014, from 7:00 pm to 9:00 pm, in rooms to be announced. 
+      This is a closed-book exam.
+
+      <p>The final mark is based on assignments (40%), the midterm
+      exam (20%), and the final exam (40%).
+
+      <p>All of the software used in the course is available free for
+      most common platforms, and will be installed on the CSCF undergraduate
+      environment (where tests will be run).
+      <ul>
+      <li>Racket: <a href="http://www.racket-lang.org">Racket 5.92</a>
+      (formerly PLT Scheme);
+      <li>OCaml: <a href="http://www.ocaml.org/">OCaml</a> version
+      4.00 or higher;
+      <li>Haskell: <a href="http://www.haskell.org">Haskell Platform</a>
+      (including GHC, the Glasgow Haskell Compiler, and associated
+      tools and libraries), version 2013.2.0.0;
+      </ul>
+
+      <p>Racket comes with a good IDE for development (DrRacket).
+      OCaml and Haskell do not, though they have command-line
+      interpreters. Good language modes for OCaml and Haskell
+      are available for Vim and Emacs.
+
+      <p>Instead of a newsgroup, we will be
+      using <a href="piazza.com/uwaterloo.ca/winter2014/cs442">Piazza</a>
+      to manage questions and discussion. If you do not get a signup
+      message, please locate the class and sign up with your UW email.
+
+      </td>
+  </tr>
+</table>
+</body>
+</html>

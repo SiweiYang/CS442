@@ -1,0 +1,81 @@
+A {
+	color: #982424;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+A:visited {
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color : #727272;
+}
+A:hover	{
+	text-decoration: underline;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	color : #727272;
+}
+
+	
+ul			{
+	text-decoration: none;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 10pt;
+	color: black;
+	list-style-type : square;
+}	
+
+TD {
+	font-family: Verdana, Geneva, Arial, sans-serif; 
+	font-size: 10pt;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 12pt;
+	color: #846464
+}
+
+h2 {
+	font-weight: bold; 
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: 14pt; 
+	color:#727272
+}
+
+h1 {
+   font-weight: bold; 
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   font-size: 16pt;
+   color:#727272
+}
+
+.main{
+   border-top: thin dotted #B2B2B2;
+}
+
+.nav-bar {
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+   font-size: 9pt;
+   text-align: left;
+   color: #982424;
+}
+
+.nav-box {
+   vertical-align: text-top;
+   border-right: thin dotted #B2B2B2;
+   padding : 20pt 20pt 0pt 0pt;
+}
+
+.main-box {
+   vertical-align: text-top;
+   padding : 20pt 0pt 0pt 20pt;
+}
+
+.blurb {
+   font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
+   font-size: 8pt;
+   text-align: right;
+   font-style: italic
+}

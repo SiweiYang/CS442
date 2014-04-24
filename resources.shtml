@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>CS 442: Resources</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Resources</h1>
+	
+    <p>Annotated links will be posted here as the term progresses.</p>
+
+    <h3>Racket</h3>
+    <p>Racket is a family of
+    languages based on Scheme (and, by extension, Lisp)
+    that provide extensions well beyond the standards for these languages but
+    also break with their precedent in certain ways (notably in making
+    standard lists immutable). The best reference for Racket is
+    found in the browser-readable documentation included with the
+    distribution, most of which is also available on
+    the <a href="http://www.racket-lang.org">Racket
+    website</a>.</p>
+
+    <p>The only book based on full Racket is the
+    recent <a href="http://realmofracket.com">Realm of Racket</a>,
+    which adapts the Lisp book "Land of Lisp". Both of these books use a
+    gaming approach. The first-year CS courses at UW (CS 115/135/145)
+    use the teaching languages in the Racket distribution, which are
+    small subsets of Racket. Both the first edition
+    of <a href="http://www.htdp.org">How To Design Programs</a> and the
+    <a href="http://www.ccs.neu.edu/home/matthias/HtDP2e/">second
+    edition</a> in progress use these teaching languages.</p>
+
+    <p>Because of the use of Racket in first year, we will spend very
+    little time on Racket syntax in lecture. If you are in need of a
+    refresher, <a href="http://www.cs.uwaterloo.ca/~plragde/tyr">this
+    tutorial</a> may be helpful.
+
+    <h3>OCaml</h3>
+
+    <p>Winter 2014 is the first offering of CS 442 that makes use of
+    OCaml, despite the textbook's heavy reliance on this language. 
+    The <a href="http://www.ocaml.org">OCaml website</a> will be
+    helpful. OCaml is in the ML family of languages. Previous
+    offerings have used SML/NJ, but this language is frozen, whereas
+    OCaml is under active development and has more of an industrial
+    presence. There are a number of small differences in syntax and
+    approach between SML and OCaML,
+    explained <a href="http://adam.chlipala.net/mlcomp/">here</a> and
+    <a href="http://www.mpi-sws.org/~rossberg/sml-vs-ocaml.html">here</a>. Microsoft's
+    <a href="http://msdn.microsoft.com/en-ca/fsharp/default.aspx">F#
+    Developer Center</a> has more information on this latest dialect,
+    which is based on OCaml.</p>
+
+    <p>The OCaml website has links to a number of books and tutorials. The recent
+    book <a href="https://realworldocaml.org">Real World OCaml</a>
+    looks very interesting, and the entire text is available online,
+    but be warned that this book uses a
+    nonstandard replacement for the standard library called Core, and
+    consequently diverges from the coverage in this course.</p>
+
+    <h3>Haskell</h3>
+
+    <p><a href="http://www.haskell.org/">Haskell.org</a> is your
+    one-stop shop for all things Haskell. Of particular interest: the
+    <a href="http://www.haskell.org/haskellwiki/Language_and_library_specification">Haskell
+    Report</a>, the
+    standard <a href="http://www.haskell.org/ghc/docs/latest/html/libraries/base/Prelude.html">Prelude</a>,
+    its
+    readable <a href="http://www.haskell.org/onlinereport/standard-prelude.html">definition</a>, and
+    the <a href="http://haskell.org/hoogle/">Hoogle</a> search
+    engine. There's also a wiki, a blog aggregator, and more
+    tutorials than you can possibly use.</p>
+
+    <p>The best book on Haskell for the beginner is Graham Hutton's
+    "Programming in Haskell". Simon Thompson's "Haskell: The Craft of
+    Functional Programming" and Paul Hudak's "The Haskell School of
+    Expression" are also very good. The O'Reilly book
+    "Real-World Haskell" (O'Sullivan, Stewart, Goertzen) pretty much
+    lives up to its title. If it sometimes gives off a slight
+    whiff of "written by committee" or "blog posts stapled together",
+    that is more than offset by the fact that it was developed with
+    extensive feedback from the Haskell community and
+    is <a href="http://book.realworldhaskell.org/">available
+    online</a>. Another book available online
+    is <a href="http://learnyouahaskell.com/">
+    Learn You A Haskell For Great Good!</a>, which has a breezy,
+    irreverent style, even though the contents are technically solid.
+    <p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

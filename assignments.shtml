@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>CS 442: Assignments</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Assignments</h1>
+	
+      <p>Assignment questions will be posted here as the term
+      progresses. Submission instructions are
+      on <a href="marmoset.shtml">the Marmoset page</a>. Work is to be
+      done individually. Please avoid excessive collaboration, and do
+      not look for the answers to assignment questions on the Web or
+      in other textbooks. You are responsible for reading and
+      understanding the policies described below under the heading
+      "Plagiarism Policy".
+      <p> Questions will not be grouped into weekly assignments, but
+      released individually with individual due dates, 
+      allowing for a more steady workload. 
+      I anticipate having the equivalent of six to eight conventional
+      assignments, with a
+      workload that is moderate compared to other fourth-year CS
+      courses. Programming will be done in Racket, OCaml, and Haskell.
+      Students will be expected to program in these languages
+      after lectures providing a relatively brief high-level overview
+      of features. No language will be "dropped" (that is, later
+      questions may involve programming in any or several of these).
+      <p>
+      <a href="assignments/index.html"><b>Assignments index.</b></a>
+      <p>
+      <a href="assignments/Q2-starter.rkt"><b>Q2 starter file.</b></a>
+      <p>
+      <a href="assignments/Q3-starter.rkt"><b>Q3 starter file.</b></a>
+      <p>
+      <a href="assignments/Q4-starter.ml"><b>Q4 starter file.</b></a>
+      <p>
+      <a href="assignments/Q7-starter.ml"><b>Q7 starter file.</b></a>
+      <p>
+      <a href="assignments/Q13-starter.hs"><b>Q13 starter file.</b></a>
+      <p>
+      <h3>Plagiarism Policy </h3>
+
+      <p>All work for credit in CS 442 is to be done individually. The penalty
+      for plagiarism is an assigned mark of zero on the assignment or
+      test and a deduction of 5% from the final course grade,
+      consistent with School of Computer Science and Faculty of
+      Mathematics policy. In addition, a letter detailing the offense
+      is sent to the Associate Dean of Undergraduate Studies, meaning
+      that subsequent offenses will carry more severe penalties, up to
+      suspension or expulsion. To avoid inadvertently incurring this
+      penalty, you should discuss assignment issues with other
+      students only in a very broad and high-level fashion. Do not
+      take notes during such discussions, and avoid looking at anyone
+      else's code, on screen or on paper. If you find yourself stuck,
+      contact the instructor or teaching assistants for help, instead of getting the
+      solution from someone else. When trying to deal with
+      difficulties, do not consult books other than the textbooks and
+      do not consult any Web sources, unless explicitly authorized to do so.</p>
+      <p>&nbsp;</p>
+
+      <p>Senate Undergraduate Council has asked us to post the following paragraphs:</p> 
+
+      <p><b>Academic Integrity:</b>  In order to maintain a culture of
+      academic integrity, members of the University of Waterloo
+      community are expected to promote honesty, trust, fairness,
+      respect and responsibility. 
+      <p><b>Grievance:</b>  A student who believes that a decision
+      affecting some aspect of his/her university life has been unfair
+      or unreasonable may have grounds for initiating a
+      grievance. Read       <a href="http://www.adm.uwaterloo.ca/infosec/Policies/policy70.htm">Policy 70 - Student Petitions and Grievances, Section 4</a>.
+      <p><b>Discipline:</b> A student is expected to know what
+      constitutes academic integrity, to avoid committing academic
+      offenses, and to take responsibility for his/her actions. A
+      student who is unsure whether an action constitutes an offense,
+      or who needs help in learning how to avoid offenses (e.g.,
+      plagiarism, cheating) or about "rules" for group
+      work/collaboration should seek guidance from the course
+      professor, academic advisor, or the Undergraduate Associate
+      Dean. When misconduct has been found to have occurred,
+      disciplinary penalties will be imposed under Policy 71 - Student
+      Discipline. For information on categories of offenses and types
+      of penalties, students should refer to <a href="http://www.adm.uwaterloo.ca/infosec/Policies/policy71.htm">Policy 71 - Student Discipline</a>.
+      <p><b>Avoiding Academic Offenses:</b>  
+      Most students are unaware of the line between acceptable and
+	unacceptable academic behaviour, especially when discussing
+	assignments with classmates and using the work of other
+	students.  For information on commonly misunderstood academic
+	offenses and how to avoid them, students should refer to the
+	<a
+	href="http://www.math.uwaterloo.ca/navigation/Current/cheating_policy.shtml">Faculty
+	of Mathematics Cheating and Student Academic Discipline Policy</a>.
+      <p><b>Appeals:</b> A student may appeal the finding and/or
+      penalty in a decision made under Policy 70 - Student Petitions
+      and Grievances (other than regarding a petition) or Policy 71 -
+      Student Discipline if a ground for an appeal can be
+      established. Read <a href="http://www.adm.uwaterloo.ca/infosec/Policies/policy72.htm">Policy 72 - Student Appeals</a>.
+      </td>
+  </tr>
+
+</table>
+</body>
+</html>

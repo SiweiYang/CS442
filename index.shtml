@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>CS 442: Home</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Home</h1>
+	
+      <p>This is the homepage for CS 442/642 at the University of Waterloo
+      (Winter 2014). For details of this offering, please see the
+      Overview page.</p>
+
+      <p> Announcements will be made on Piazza (piazza.com); this will
+      also be the site used for public discussion and questions.</p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

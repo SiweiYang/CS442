@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>CS 442: Handouts</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Handouts</h1>
+	
+      <p>I will provide copies of the lecture slides below
+      in PDF format with various numbers of slides per page, and
+      encourage you to print out one version and bring it to
+      class. The point of doing this is to permit you to take notes on
+      what I'm saying, writing on the board, or
+      composing electronically during the lecture. The handouts are
+      not an adequate substitute for attending lectures; if you miss
+      class, you should contact someone who takes notes in order to
+      catch up.</p>
+
+
+      <b>1: Introduction to Racket</b>
+      <a href="handouts/01-racket.pdf">1-up</a>
+      <a href="handouts/01-racket-2up.pdf">2-up</a>
+      <a href="handouts/01-racket-4up.pdf">4-up</a>
+      <p>
+      <b>2: OCaml</b>
+      <a href="handouts/02-ml.pdf">1-up</a>
+      <a href="handouts/02-ml-2up.pdf">2-up</a>
+      <a href="handouts/02-ml-4up.pdf">4-up</a>
+      <p>
+      <b>3: Type inference</b>
+      <a href="handouts/03-typeinf.pdf">1-up</a>
+      <a href="handouts/03-typeinf-2up.pdf">2-up</a>
+      <a href="handouts/03-typeinf-4up.pdf">4-up</a>
+      <p>
+      <b>4: Haskell</b>
+      <a href="handouts/04-haskell.pdf">1-up</a>
+      <a href="handouts/04-haskell-2up.pdf">2-up</a>
+      <a href="handouts/04-haskell-4up.pdf">4-up</a>
+      <p>
+      <b>5: System F</b>
+      <a href="handouts/05-systemf.pdf">1-up</a>
+      <a href="handouts/05-systemf-2up.pdf">2-up</a>
+      <a href="handouts/05-systemf-4up.pdf">4-up</a>
+      <p>
+      <b>Handouts above this point have had errors corrected.</b>
+      <p>
+      <p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

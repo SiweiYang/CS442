@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>CS 442: Overview</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<h1>CS 442: Principles of Programming Languages
+</h1>
+<table class="main" width="100%">
+  <tr>
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+      </td>
+    <td class="main-box" width="80%"><h1 class="title">Overview</h1>
+	
+      <p>The course will cover most of the topics in 
+      <a href="http://www.cs.uwaterloo.ca/current/courses/course_descriptions/cDescr/CS442.shtml">the
+      handbook description</a>, though the order will be rearranged.
+      The Winter 2014 offering will most resemble the Winter 2012 offering
+      by the same instructor, though there is also considerable
+      resemblance to offerings in winters 2003, 2004, 2005, 2007,
+      2008, 2010, and 2013. Relative to all past offerings, we will be
+      spending more time with the required textbook (Types and
+      Programming Languages, by Benjamin Pierce), with more emphasis
+      on type theory, and more emphasis on depth at the expense of
+      some depth.
+      <p>We will study three programming languages: Racket, OCaml, and
+      Haskell. Each of these contributes significant concepts
+      which can be rigourously formalized. Our goal is to understand
+      not only the idiomatic use of these languages, but also their
+      theoretical underpinnings, and issues that arise in their
+      implementations. 
+      <p>The first lecture module will give a few more details on the
+      scope of coverage of topics.
+      </td>
+  </tr>
+</table>
+</body>
+</html>

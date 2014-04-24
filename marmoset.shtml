@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>CS 442: Marmoset</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body> 
+<h1>CS 442: Principles of Programming Languages</h1> 
+<table class="main" width="100%"> 
+  <tr> 
+    <td class="nav-box" width="20%">
+		  <div class="nav-bar">
+        <p><a href="index.shtml">Home</a></p>
+        <p><a href="assignments.shtml">Assignments</a></p>  
+        <p><a href="errata.shtml">Errata</a></p>
+        <p><a href="handouts.shtml">Handouts</a></p>
+        <p><a href="logistics.shtml">Logistics</a></p>
+        <p><a href="marmoset.shtml">Marmoset</a></p>
+        <p><a href="overview.shtml">Overview</a></p>
+        <p><a href="resources.shtml">Resources</a></p>
+  </div>
+
+	</td> 
+    <td class="main-box" width="80%"><h1 class="title">Using Marmoset
+    to submit assignments</h1>
+
+<h3>Basic Logistics</h3>
+
+<ol>
+<li> Go to <a href="https://marmoset.student.cs.uwaterloo.ca/"><tt>https://marmoset.student.cs.uwaterloo.ca/</tt></a>
+and log in using your WatIAM info. This should be the same as the info
+you use to log in to Quest.
+
+<li> Click the "as" button under "Authenticate". You should only have
+  one choice here (unless you are taking another course that uses Marmoset).
+
+<li> Click "CS442 (Winter 2014):".
+
+<p>Note: If you don't see what you're supposed to see in steps 2 or 3,
+then you are probably not yet added as a student in CS 442 on
+Marmoset. Contact Prabhakar to resolve this issue.</p>
+
+<li> You should now be able to see the projects (assignment questions)
+that have been set up on Marmoset for CS 442. 
+You can submit your assignment files to
+Marmoset using a button on individual project pages.
+
+</ol>
+
+<h3>Submitting Assignments</h3>
+
+<p>If only one file is required for an assignment question, you can
+submit only that file. If multiple files are required for an
+assignment question, you must zip all of the required files and submit
+the zip file. Make sure that all of the required files with a required
+name are named correctly; otherwise, you will receive "did not
+compile" as the test result.</p>
+
+
+<h3>Tests on Marmoset</h3>
+
+<p>There are two types of tests that we will use on Marmoset in CS
+442: <b>public</b> tests and <b>release</b> tests.</p>
+
+<p>Public tests are designed to test whether your program works in the
+most basic sense possible. They are simple tests that test for trivial
+cases.</p>
+
+<p>Release tests are designed to test whether your program is
+correct. You can expect these tests to test all the dark corners and
+special cases that can potentially break your code.</p>
+
+<h3>After Submitting a Program</h3>
+
+<p>When you make a submission to an assignment question on Marmoset,
+your submission will be automatically tested on a CSCF
+server. After a while (a few seconds to a few minutes, depending on
+server load and program and test complexity), the tests should finish
+and you should see a result. Marmoset occasionally refuses to
+complete testing; if twenty minutes or so pass without testing being
+completed, please resubmit. Do not submit more often, as you will
+only increase the load on the server for everyone.</p>
+
+<h3>Interpreting Test Results</h3>
+
+<p>If your submitted program does not compile or run successfully on its
+own, your submission will receive a result of "did not compile" and
+the detailed test results will contain something similar to the error
+message you get if you ran your program yourself. In this case, your
+submission will not be tested with any of the tests.</p>
+
+<p>If your submitted program runs successfully on its own, it will be
+  tested with all of the public tests.</p> 
+
+<p>If it fails any public test, the detailed test results will display
+  an error message for that public test. </p> 
+
+<p>If it passes all of the public tests, you will have the option to
+  request this submission to be release-tested. If you do so, you will
+  use up one of your "release tokens" for that question. Normally, for
+  every assignment question, you will be initially given 3 release
+  tokens. If you use
+  up one or more of them, one release token will regenerate once every
+  12 hours, until you have 3 release tokens again. Start your work
+  early if you want to have more chances to pass the release tests.</p>
+
+<p>After you request a submission to be release-tested, Marmoset will
+  show you some information about the tests. The tests are done whether
+  or not you ask for this, and you will get the marks for passed
+  tests, even if you won't know about them.
+  If your submission fails a release test, you will only see that
+  test and one more test in the detailed test results. If your
+  submission passes all the release tests, you will not see any release
+  tests in the detailed test results, but you will be credited with full
+  marks for that question.</p>
+
+<p>If you fail a release test, you will get a small amount of
+  information about what went wrong. You will not be given details of
+  the test case that you failed. Do not attempt to guess what that
+  test case might be, and do not ask about it. The correct action when
+  failing a release test is to re-examine your own test suite and
+  redesign it to find the error in your code or your assumptions.</p>
+
+<h3>Common Marmoset Test Messages</h3>
+
+<p>Here are the possible results of requesting a release test:</p> 
+
+<p>"Success: test X passed", where X is the name of the test. You can
+  pat yourself on the back for this one.</p>
+
+<p>"Error: wrong output for test X". This means that some function you
+  were required to write did not produce the value we expected, or
+  (later in the course) that some part of your program did not produce
+  the output that we expected.</p>
+
+<p>"Error: program ran out of resources while running test X". This
+  means that your program took too much time or too much memory during
+  the test. The "short result" reported should be ignored in the case
+  of a timeout, because we use our own timeout mechanism, not Marmoset's.</p>
+
+<p>"Error: program encountered error while running test X". This means
+  that your program halted with an error during the test.</p>
+
+<p>"Error: program ran out of time while initializing". This happens
+  if your program takes too much time when it is evaluted by Marmoset,
+  before any of our tests are run.</p>
+
+<p>"Error: program ran out of memory while initializing" (same as
+  above, but with memory).
+
+<p>"Error: program failed to initialize". This happens if you use the
+  wrong language, if you have non-text elements in your program
+  (such as values snipped out of the Interactions window and pasted
+  into the Definitions window), or if you are doing something that is
+  not permitted, such as file I/O or network access.
+
+<h3>Grading</h3>
+
+<p>There is no penalty for multiple submissions. Your best submission
+counts. The only thing stopping you from spamming Marmoset with many
+submissions is that you have a limited number of release tokens, and
+this does not apply to public tests. Please remember that the server
+is a shared resource; out of courtesy to your fellow students, do not
+do anything that overloads it, especially close to deadlines.</p>
+<p>
+
+<h3>
+
+<p>&nbsp;</p>
+</td>  
+</tr> 
+
+</table> 
+</body>
+</html>
